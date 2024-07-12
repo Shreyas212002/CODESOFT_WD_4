@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.image-container {
+    text-align: center;
+    padding: 10px 0;
+}
+#image {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    border: 5px solid #707070;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+#name {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+#bio {
+    background-color: #8f8f8f;
+    padding: 50px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    margin: 10px 0;
+}
+#bio h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+#bio p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
